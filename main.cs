@@ -8,11 +8,11 @@ class Program
 {
     public static void Main(string[] args)
     {
-        var days;
-        var age;
+        var days = Console.ReadLine();
+        int age;
 
         //Input 
-        Console.WriteLine("This program checks users eligibility for movies.");
+        Console.WriteLine("This program checks eligibility for student pricing.");
         Console.WriteLine("");
         Console.Write("Enter day of the week: ");
         days = Console.ReadLine();
