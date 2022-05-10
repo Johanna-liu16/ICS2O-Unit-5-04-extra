@@ -19,13 +19,14 @@ class Program
         Console.WriteLine("");
         Console.Write("Enter age: ");
         age = Convert.ToInt32(Console.ReadLine());
-
+ 
         //Process
-        if ((days == "Tuesday" || days == "Thursday") || (age > 12 && age < 21))
+        if ((days == "Tuesday" || days == "Thursday") || (age > 12 && age < 21)) {
             Console.WriteLine("You are eligible for student pricing");
-        else
+        } else {
             Console.WriteLine("You must pay regular price");
-
-        Console.WriteLine("\nDone.");
+        }
+        
+        Console.WriteLine("\nDone."); 
     }
 }
